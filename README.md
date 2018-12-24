@@ -49,4 +49,4 @@ All 3 functions take a second optional argument for the starting "seed"
 ```
 
 ## License
-   [Apache 2.0 License](LICENSE.md)
+   [Apache 2.0 License](LICENSE)
