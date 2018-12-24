@@ -12,6 +12,7 @@ Port of [SheetJS' adler32](https://github.com/SheetJS/js-adler32) written in Dar
 
 ### buf
   `int buf(List<int> buf, [int seed])`
+  
   The `buf` function takes an array of bytes as the first argument
 
   ##### Example
@@ -21,6 +22,7 @@ Port of [SheetJS' adler32](https://github.com/SheetJS/js-adler32) written in Dar
 
 ### bstr
   `int bstr(String bstr, [int seed])`
+  
   The `bstr` function takes a binary string the first argument
 
   ##### Example
@@ -30,6 +32,7 @@ Port of [SheetJS' adler32](https://github.com/SheetJS/js-adler32) written in Dar
 
 ### str
   `int str(String str, [int seed])`
+  
   The `str` function takes a string the first argument
 
   ##### Example
