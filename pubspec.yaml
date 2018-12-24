@@ -3,3 +3,5 @@ version: 1.0.0
 author: Volk <templar.volk@yandex.com>
 description: Signed ADLER-32 algorithm implementation in Dart. Works in browser, VM and flutter.
 homepage: https://github.com/TemplarVolk/ADLER32
+environment:
+  sdk: '>=1.0.0 <3.0.0'
