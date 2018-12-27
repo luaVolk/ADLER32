@@ -5,3 +5,5 @@ description: Signed ADLER-32 algorithm implementation in Dart. Works in browser,
 homepage: https://github.com/TemplarVolk/ADLER32
 environment:
   sdk: '>=1.0.0 <3.0.0'
+dev_dependencies:
+  test: ^1.5.1
