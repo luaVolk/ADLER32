@@ -1,5 +1,4 @@
-# ADLER32
-[![Pub](https://img.shields.io/pub/v/adler32.svg)](https://pub.dartlang.org/packages/adler32)
+# ADLER32 [![Pub](https://img.shields.io/pub/v/adler32.svg)](https://pub.dartlang.org/packages/adler32)
 
 Port of [SheetJS' adler32](https://github.com/SheetJS/js-adler32) written in Dart.
 
