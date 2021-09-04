@@ -7,7 +7,7 @@ import 'src/util.dart';
 /// Main class that contains all 3 functions
 abstract class Adler32 {
   /// Get checksum from a binary string
-  static int bstr(String bstr, [int seed]) {
+  static int bstr(String bstr, [int? seed]) {
     int a = 1, b = 0, L = bstr.length, M = 0;
     if (seed != null) {
       a = seed & 0xFFFF;
@@ -26,7 +26,7 @@ abstract class Adler32 {
   }
 
   /// Get checksum from a array of bites
-  static int buf(List<int> buf, [int seed]) {
+  static int buf(List<int> buf, [int? seed]) {
     int a = 1, b = 0, L = buf.length, M = 0;
     if (seed != null) {
       a = seed & 0xFFFF;
@@ -45,7 +45,7 @@ abstract class Adler32 {
   }
 
   /// Get checksum from a regular string
-  static int str(String str, [int seed]) {
+  static int str(String str, [int? seed]) {
     int a = 1, b = 0, L = str.length, M = 0, c = 0, d = 0;
     if (seed != null) {
       a = seed & 0xFFFF;
